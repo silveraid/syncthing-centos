@@ -3,7 +3,7 @@
 ## RPM Install
 
 ```
-yum install https://github.com/mlazarov/syncthing-centos/releases/download/v0.14.7/syncthing-0.14.7-0.el7.centos.x86_64.rpm
+yum install https://github.com/silveraid/syncthing-centos/releases/download/v0.14.24/syncthing-0.14.24-0.el7.centos.x86_64.rpm
 ```
 
 
@@ -34,5 +34,3 @@ rpmbuild -bb syncthing.spec
 sudo systemctl start syncthing@<username>
 ```
 
-You can now access the GUI through this URL: 
-http://localhost:8080
